@@ -1,38 +1,68 @@
-Online Voting System – Software Documentation
+## Project Overview
 
-This repository contains the **software documentation** for the **Online Voting System** project. The system is designed to provide a secure, transparent, and efficient platform for conducting elections digitally.  
+The Online Voting System is a web-based software project developed to provide a secure, reliable, and efficient platform for conducting elections digitally.
 
-The documentation follows the **Spiral Model** of Software Development, ensuring iterative refinement of requirements, design, and analysis at each phase.
+The system allows registered users to cast their votes electronically and provides an administrative interface for managing the election and viewing results.
 
+This repository contains both the software documentation and the source code of the Online Voting System.
+
+## Technologies Used
+PHP – Backend development
+MySQL – Database management
+HTML – Web page structure
+CSS – User interface styling
+XAMPP – Local development environment
+## Repository Contents
+Documentation
+
+Online Voting System.pdf
+
+Contains the complete software documentation, including the system requirements, design, development methodology, and other project details.
+
+## voting process
+
+The voting process folder contains the implementation of the system:
+
+register.php – User registration
+login.php – User login
+logout.php – User logout
+vote.php – Voting interface
+vote_process.php – Processes submitted votes
+admin.php – Admin panel
+admin_process.php – Processes administrative actions
+results.php – Displays election results
+db.php – Database connection
+database.sql – Database structure and initial data
+style.css – Website styling
+## Main Features
+User registration and login
+Secure voting process
+One-time voting functionality
+Admin panel
+Election result display
+MySQL database integration
+Simple and user-friendly interface
+How to Run the Project
+Install XAMPP.
+Start Apache and MySQL from the XAMPP Control Panel.
+Copy the Source-Code folder into:
+C:\xampp\htdocs\
+Open phpMyAdmin.
+Create a database for the voting system.
+Import database.sql into the database.
+Check the database credentials in db.php.
+Open the project in your browser:
+http://localhost/Source-Code/
+## Documentation
+
+The complete software documentation is available in:
+
+Online Voting System.pdf
+
+Project
+
+Online Voting System
+Developed as an academic software project.
 ---
 
-## 📌 Project Overview
-The Online Voting System aims to:
-- Digitalize the voting process for efficiency and transparency  
-- Minimize manual errors and fraudulent activities  
-- Ensure secure authentication and accurate vote counting  
-- Provide an admin-controlled environment for managing elections  
 
----
-
-## 📑 Documentation Contents
-This repository includes the following artifacts:
-
-- ✅ **Problem Statement** – Introduction to the project  
-- ✅ **System Requirements Specification (SRS)** – Functional & Non-Functional requirements  
-- ✅ **Software Development Model** – Spiral Model explanation and application  
-- ✅ **Use Case Diagrams** – Actors and interactions with the system  
-- ✅ **Entity Relationship Diagram (ERD)** – Database design representation  
-- ✅ **Data Flow Diagrams (DFDs)** – System processes and data movement  
-- ✅ **Class Diagrams** – Object-oriented design representation  
-- ✅ **Sequence & Activity Diagrams** – Flow of operations and behaviors  
-- ✅ **Project Plan & Iterations** – Spiral model cycles overview  
-
----
-
-## 📚 Learning Outcomes
-Through this project documentation, the following were achieved:
-- Application of **Software Engineering principles** in a real-world system  
-- Understanding of **Spiral Model** for risk-driven development  
-- Practical exposure to **modeling techniques** (ERD, UML diagrams, DFDs)  
-- Designing a secure, scalable, and transparent voting system framework 
