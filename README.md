@@ -13,7 +13,8 @@ HTML – Web page structure
 CSS – User interface styling
 XAMPP – Local development environment
 ## Repository Contents
-Documentation
+
+## Documentation
 
 Online Voting System.pdf
 
